@@ -43,6 +43,8 @@ import com.deepoove.poi.template.ElementTemplate;
 public class XWPFTemplate {
     private static Logger logger = LoggerFactory.getLogger(XWPFTemplate.class);
 
+    //-------------
+    
     private NiceXWPFDocument doc;
     private Configure config;
     private Visitor visitor;
